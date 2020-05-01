@@ -1,68 +1,71 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Webpack-React-Babel
 
-## Available Scripts
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)]() [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)[![codecov.io Code Coverage](https://img.shields.io/codecov/c/github/dwyl/hapi-auth-jwt2.svg?maxAge=2592000)](https://github.com/RickBr0wn/webpack-react-babel?branch=master)
 
-In the project directory, you can run:
+A boilerplate for a Webpack bundled React project with Babel. This has been created as part of a blog post series. Part one can be seen [here](https://www.self-taught-and-fraught.com/development/webpack-react-babel-2020/)
 
-### `yarn start`
+## Getting Started
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### Prerequisites
 
-### `yarn test`
+To get this boilerplate running locally you will need:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- a node package manager (yarn or npm)
+- a command line terminal (iTerm or bash)
+- your favorite IDE (vscode, sublime)
 
-### `yarn build`
+### Installing
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Clone the repo:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+```bash
+git clone https://github.com/RickBr0wn/webpack-react-babel <YOUR_PROJECT_NAME> && cd <YOUR_PROJECT_NAME>
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To start your own repository,
 
-### `yarn eject`
+> **important:** make sure you are in the cloned directory.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+rm -rf .git
+git init
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This will remove the existing git history, and allow you to link it to a new repository.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+> Please credit this boilerplate if you build something fantastic!
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Running the tests
 
-## Learn More
+Available scripts:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+yarn test
+yarn test:watch
+yarn test:coverage
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Built With
 
-### Code Splitting
+- [webpack](https://webpack.js.org) - A static module bundler for modern JavaScript applications.
+- [react](https://reactjs.org/docs/getting-started.html) - A JavaScript library for building user interfaces.
+- [babel](https://babeljs.io) - A toolchain used to convert ECMAScript 2015+ code into a backwards compatible version of JavaScript.
+- [eslint](https://eslint.org) - Statically analyzes your code to quickly find problems.
+- [prettier](https://prettier.io) - An opinionated code formatter.
+- [husky](https://github.com/typicode/husky) - Git hooks made easy.
+- [jest](https://jestjs.io) - A test runner/framework for Javascript.
+- [react-testing-library](https://testing-library.com/docs/react-testing-library/intro) - Builds on top of DOM Testing Library by adding APIs for working with React components.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## Contributing
 
-### Analyzing the Bundle Size
+[CONTRIBUTING.md](/CONTRIBUTING.md)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+## Author(s)
 
-### Making a Progressive Web App
+- **Rick Brown** - _Initial work_ - [RickBr0wn](https://github.com/RickBr0wn)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+## License
 
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+This project is licensed under the MIT License - see the [LICENSE.md](<[LICENSE.md](https://gist.github.com/RickBr0wn/5f95ee6118bb32034e2b94acbd88a99d)>) file for details
